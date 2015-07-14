@@ -7,8 +7,13 @@ We all love WaitButWhy.com, the brainchild of Tim Urban and Andrew Finn, and the
 - Pragmatic approach. There are a million things that we could do, we're just gonna focus on very specific incremental changes to the site to start. 
 - My role. I work with Tim and Andrew as the CTO of ArborBridge.com and truePrep.com. My role with this group is to communicate their ideas and your ideas to make WBW the best non-blog blog on the web (http://waitbutwhy.com/faq).
 
-# Setup
+# Overview
 - WBW is a WordPress site hosted at WPEngine
 - We have a staging environment at http://waitbutwhy.staging.wpengine.com
 - WBW has a custom template
 - There is extensive utilization of third-party plugins
+
+# Setup
+1. Generate SSH keys: https://help.github.com/articles/generating-ssh-keys/
+2. Clone master branch
+3. Edit wp-config.php and replace all "EMPTY" values with your own values
